@@ -1,4 +1,7 @@
-export {}; // ファイルをモジュールとして扱いスコープを分離するために必要
-
-const userName: string = "Bob";
-console.log(`Hey, ${userName}.`);
+export {};
+const todo = {
+  name: "TypeScriptの勉強", // name = "..." ではない点に要注意
+  priority: 3, // priority = "..." ではない点に要注意
+};
+console.log(`Todo 1 => ${todo.name}（優先度:${todo.priority})`);
+console.log(JSON.stringify(todo, null, 2));
