@@ -1,2 +1,2 @@
-console.log("■ prac07 の実行");
-import "./prac07";
+console.log("■ prac09 の実行");
+import "./prac09";
